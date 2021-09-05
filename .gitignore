@@ -1,9 +1,9 @@
-# Test screenshots and videos
-cypress/screenshots/*
-cypress/videos/*
+# Cypress folders
+cypress/screenshots
+cypress/videos
+cypress/cucumber-json
 
 # dependencies
 /node_modules
 
 .DS_Store
-cypress/cucumber-json

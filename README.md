@@ -17,7 +17,7 @@ This is a test automation project to test Insurance Consulting and Technology us
 
 ## Project Structure
 1. cypress - This folder contains all files for cypress
-2. cypress/integrationtests - This folder contains all feature files and step definition files
+2. cypress/integration - This folder contains all feature files and step definition files
 3. pageObjects - This folder contain elements and methods for all pages
 
 
