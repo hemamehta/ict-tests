@@ -3,10 +3,6 @@ import BasePage from './basePage.js'
 // ICT Page Class
 export default class ictPage extends BasePage {
 
-  constructor() {
-    super()
-  }
-
   // Elements
   languageDropdownMenu = "[data-eventaction=\"Country Site Menu Opened\"]";
   AmericasDropdown = "#region-0 > .material-icons";

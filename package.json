@@ -2,15 +2,14 @@
   "name": "ict-tests",
   "version": "1.0.0",
   "description": "Automations Tests for Insurance Consulting and Technology",
-  "main": "index.js",
   "scripts": {
     "test": "cypress run --headed chrome",
     "test:headless": "cypress run",
     "test:open": "cypress open"
   },
   "author": "Hemlata",
-  "license": "ISC",
-  "dependencies": {
+  "license": "UNLICENSED",
+  "devDependencies": {
     "cypress": "^8.3.0",
     "cypress-cucumber-preprocessor": "^4.2.0"
   },
@@ -22,8 +21,5 @@
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
-  },
-  "devDependencies": {
-    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }

@@ -1,6 +1,6 @@
 Feature: ICT
 
-I want to test ICT
+I want to test scanrios for Insurance Consulting and Technology
 
 Scenario: Search followed by sorting and filtering
 Given ICT webpage is open with title "Insurance Consulting and Technology - Willis Towers Watson"

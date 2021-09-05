@@ -3,10 +3,6 @@ import BasePage from './basePage.js'
 // Search Page Class
 export default class searchPage extends BasePage {
 
-  constructor() {
-    super()
-  }
-
   // Elements
   pageHeading = ".CoveoQuerySummary > :nth-child(1) > :nth-child(4)";
   datesList = ".CoveoFieldValue.wtw-inline-field.wtw-listing-result-date";
