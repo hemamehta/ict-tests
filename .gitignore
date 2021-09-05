@@ -4,3 +4,6 @@ cypress/videos/*
 
 # dependencies
 /node_modules
+
+.DS_Store
+cypress/cucumber-json

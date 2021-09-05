@@ -1,7 +1,7 @@
 {
   "name": "ict-tests",
   "version": "1.0.0",
-  "description": "Automations Tests for ICt functionality",
+  "description": "Automations Tests for Insurance Consulting and Technology",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --headed chrome",
