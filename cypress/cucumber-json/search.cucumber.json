@@ -1,0 +1,103 @@
+[
+  {
+    "description": "I want to test ICT",
+    "keyword": "Feature",
+    "name": "ICT",
+    "line": 1,
+    "id": "ict",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "ict;search-followed-by-sorting-and-filtering",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Search followed by sorting and filtering",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "ICT webpage is open with title \"Insurance Consulting and Technology - Willis Towers Watson\"",
+            "result": {
+              "status": "passed",
+              "duration": 7473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I change the language to United States English",
+            "result": {
+              "status": "passed",
+              "duration": 6993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I search for \"IFRS 17\"",
+            "result": {
+              "status": "passed",
+              "duration": 1143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Search Page is opened with title \"Search - Willis Towers Watson\"",
+            "result": {
+              "status": "passed",
+              "duration": 5914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Page heading contains \"IFRS 17\"",
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Sort by Date if not sorted already",
+            "result": {
+              "status": "passed",
+              "duration": 3633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Filter for \"Article\" Content type filter",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Article links in the list are correct",
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

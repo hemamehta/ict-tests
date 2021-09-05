@@ -1,0 +1,6 @@
+# Test screenshots and videos
+cypress/screenshots/*
+cypress/videos/*
+
+# dependencies
+/node_modules
