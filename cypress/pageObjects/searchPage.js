@@ -22,7 +22,7 @@ export default class searchPage extends BasePage {
     return cy.get(this.datesList).each(($el) => {
       cy.wrap($el).invoke('text').then((val) => {
         newDate = new Date(val);
-        if (oldDate <= newDate) {
+        if (oldDate < newDate) {
           flag = 1;
         }
       })
@@ -40,7 +40,7 @@ export default class searchPage extends BasePage {
           cy.wait(3000);
           this.verifySortingByDate()
             .then((newFlag) => {
-              expect(newFlag).to.eq(1);
+              expect(newFlag).to.eq(0);
             })
 
         }
